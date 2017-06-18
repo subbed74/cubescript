@@ -16,3 +16,5 @@ These scripts were written for fun and to add some things to Sauerbraten.  They 
 2. Place the file somewhere in the "scripts" directory of the Remod server.  (I recommend creating a folder for custom scripts.)
 3. Open server-init.cfg
 4. Add `exec "scripts/PATH-TO-SCRIPT.cfg"` then save the file.
+
+Note: If the scripts require the use of the DB, I recommend specifying which database and table to use in the server-init.  The aliases will be given default values otherwise, and you can retrieve the names of the aliases (such as `login_db`) by looking in the first few lines of the scripts.
